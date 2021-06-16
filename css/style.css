@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: start;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 25px 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  margin: 9.5px 0;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: start;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
+}
+footer {
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100vw;
+  background: #d2cfc7;
+  padding: 30px 0;
+}
+
+footer div {
+  margin: 5.5px 0 !important;
+}
+
+.logo {
+  margin: auto 0 !important;
+}
+
+.redes {
+  margin: auto 0 !important;
+}
+
+.redes i {
+  margin: 0 2.5px;
+}
+
+.seccionPropuesta {
+  padding: 30px;
+}
+
+.seccionPropuesta img {
+  margin: 4.1px;
+}
+
+.fotos1 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+strong {
+  width: 343px;
+  height: 97px;
+  background: #e0b593;
+  padding: 20px 0;
+}
+
+.quienesSomos {
+  padding: 50px !important;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 748px;
+  height: 340px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+}
+
+.quienesSomos p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4c4b;
+  text-align: center;
+}
