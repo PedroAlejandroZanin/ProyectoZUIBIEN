@@ -1,13 +1,180 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
+  box-sizing: border-box !important;
+  margin: 0px 0px !important;
+  padding: 0px 0px !important;
 }
 
 body {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
+  overflow-x: hidden !important;
 }
 
-footer p {
+.inicio {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly !important;
+  margin-left: 550px !important;
+}
+
+.menu ul li {
+  display: inline-block;
+  justify-content: end !important;
+  margin: 0 20px !important;
+  margin-top: 35px !important;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px !important;
+  line-height: 19px !important;
+  z-index: 20;
+}
+
+.menu i {
+  font-size: 8px;
+  align-items: center;
+}
+
+.lupa {
+  font-size: 20px !important;
+  position: absolute;
+  right: 75px;
+  top: 25px;
+}
+
+h1 {
+  position: absolute;
+  width: 936px;
+  height: 212px;
+  left: 176px;
+  top: 262px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  color: #4e4c4b;
+  z-index: 5;
+}
+
+h2 {
+  position: absolute;
+  width: 236px;
+  height: 167px;
+  left: 175px;
+  top: 505px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
+}
+
+.rectangulo3 {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  position: absolute;
+  width: 301px;
+  height: 57px;
+  left: 88px;
+  top: 661px;
+  background: #527c73;
+}
+
+.rectangulo3 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.rectangulo4 {
+  position: absolute;
+  width: 748px;
+  height: 803px;
+  left: 602px;
+  top: 0px;
+  background: #e0b593;
+  z-index: -5;
+}
+
+.rectangulo14 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 854px;
+  height: 66px;
+  left: 411px;
+  top: 924px;
+  border: 5px solid #e0b593;
+  box-sizing: border-box;
+}
+
+.rectangulo14 p {
+  display: inline-block !important;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #4e4c4b;
+}
+
+.captura3 {
+  position: absolute;
+  width: 855px;
+  height: 782px;
+  left: 410px;
+  top: 121px;
+  background-image: url("../img/captura-3.png");
+}
+
+.linea13 {
+  position: absolute;
+  width: 290px;
+  height: 0px;
+  left: 122px;
+  top: 240px;
+  border: 3px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+.linea14 {
+  position: absolute;
+  width: 416px;
+  height: 0px;
+  left: -83px;
+  top: 450px;
+  border: 3px solid #e0b593;
+  transform: rotate(90deg);
+}
+
+.rectangulo59 {
+  position: absolute;
+  width: 118px;
+  height: 39px;
+  left: 96px;
+  top: 30px;
+}
+
+hr {
+  width: 100%;
+  font-size: 5px !important;
+  border: 1px solid #000000 !important;
+}
+
+/* footer p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -24,6 +191,7 @@ h1 {
   font-size: 52px;
   line-height: 61px;
   margin: 9.5px 0;
+  z-index: 2;
 }
 
 h3 {
@@ -47,6 +215,11 @@ footer div {
   margin: 5.5px 0 !important;
 }
 
+footer p {
+  margin: 15px 0 !important;
+  line-height: 25px !important;
+}
+
 .logo {
   margin: auto 0 !important;
 }
@@ -56,15 +229,7 @@ footer div {
 }
 
 .redes i {
-  margin: 0 2.5px;
-}
-
-.seccionPropuesta {
-  padding: 30px;
-}
-
-.seccionPropuesta img {
-  margin: 4.1px;
+  margin: 0 5px !important;
 }
 
 .fotos1 {
@@ -82,7 +247,6 @@ strong {
 .quienesSomos {
   padding: 50px !important;
   margin-top: 50px;
-  margin-right: 50px;
   width: 748px;
   height: 340px;
   background: #ffffff;
@@ -94,8 +258,97 @@ strong {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 26px !important;
   text-align: center;
   color: #4e4c4b;
   text-align: center;
 }
+
+.seccionPropuesta {
+  position: relative;
+  margin: 25px 20px !important;
+}
+
+.seccionPropuesta img {
+  margin: 0 5px !important;
+}
+
+.linea35 {
+  position: absolute;
+  margin-top: 275px !important;
+  width: 85px;
+  height: 0px;
+  right: 0px;
+  top: 0px;
+  border: 5px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+.linea40 {
+  position: absolute;
+  width: 825px;
+  height: 0px;
+  right: 0;
+  top: 25px;
+  border: 5px solid #e0b593;
+  transform: rotate(180deg);
+  z-index: -1 !important;
+}
+
+.propuestaDeValor {
+  position: relative;
+  margin: 50px 0 !important;
+}
+
+.testimonios {
+  position: relative;
+  margin: 50px 0 !important;
+}
+
+.linea59 {
+  position: absolute;
+  width: 950px;
+  height: 0px;
+  right: 0px;
+  top: 25px;
+  border: 5px solid #e0b593;
+  transform: rotate(-180deg);
+}
+
+.seccionTestimonios {
+  position: relative !important;
+  margin: 150px 0 !important;
+}
+
+.box1 {
+  position: absolute;
+  width: 405px;
+  height: 154px;
+  left: 90px;
+  top: 0px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.box2 {
+  position: absolute;
+  width: 404px;
+  height: 154px;
+  left: 946px;
+  top: 0px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.box3 {
+  position: absolute;
+  width: 405px;
+  height: 154px;
+  left: 518px;
+  top: 0px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+} */
