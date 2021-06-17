@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box !important;
   margin: 0px 0px !important;
-  padding: 0px 0px !important;
 }
 
 body {
@@ -9,7 +8,11 @@ body {
   overflow-x: hidden !important;
 }
 
-.inicio {
+main {
+  position: relative;
+}
+
+.portada {
   position: relative;
 }
 
@@ -53,7 +56,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 85px;
+  font-size: 6.25vw;
   line-height: 100px;
   letter-spacing: 0.02em;
   color: #4e4c4b;
@@ -69,7 +72,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.6vw;
   line-height: 26px;
   color: #4e4c4b;
 }
@@ -142,10 +145,10 @@ h2 {
 
 .linea13 {
   position: absolute;
-  width: 290px;
+  width: 280px;
   height: 0px;
-  left: 122px;
-  top: 240px;
+  left: 131px;
+  top: 250px;
   border: 3px solid #e0b593;
   transform: rotate(180deg);
 }
@@ -154,8 +157,8 @@ h2 {
   position: absolute;
   width: 416px;
   height: 0px;
-  left: -83px;
-  top: 450px;
+  left: -75px;
+  top: 460px;
   border: 3px solid #e0b593;
   transform: rotate(90deg);
 }
@@ -168,9 +171,175 @@ h2 {
   top: 30px;
 }
 
-hr {
+.linea31 {
+  position: absolute;
   width: 100%;
-  font-size: 5px !important;
+  height: 0px;
+  left: 0px;
+  top: 1024px;
+  border: 1px solid #000000;
+}
+
+/*---- Sección Propuesta----*/
+
+.propuesta {
+  position: relative;
+}
+
+.propuesta h1 {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  left: 0px;
+  top: 1118px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  color: #4e4c4b;
+}
+
+.propuesta img {
+  margin: 0 5px !important;
+}
+
+.linea40 {
+  position: absolute;
+  width: 850px;
+  height: 0px;
+  left: 550px;
+  top: 1154px;
+  border: 5px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+strong {
+  width: 343px;
+  height: 97px;
+  background: #e0b593;
+  padding: 20px 0;
+}
+
+.foto1 {
+  position: absolute;
+  width: 192px;
+  height: 330px;
+  left: 90px;
+  top: 1287px;
+}
+.foto2 {
+  position: absolute;
+  width: 192px;
+  height: 330px;
+  left: 303px;
+  top: 1287px;
+}
+
+.rectangulo41 {
+  position: absolute;
+  width: 748px;
+  height: 330px;
+  left: 517px;
+  top: 1287px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.rectangulo41 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px !important;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4c4b;
+  margin: 12px 0 !important;
+}
+
+.linea25 {
+  position: absolute;
+  width: 1170px;
+  height: 0px;
+  left: 150px;
+  top: 1660px;
+  border: 5px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+.rectangulo62 {
+  position: absolute;
+  width: 375px;
+  height: 154px;
+  left: 90px;
+  top: 1782px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.rectangulo62 p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #4e4c4b;
+  margin: 10px 10px !important;
+}
+
+.rectangulo63 {
+  position: absolute;
+  width: 375px;
+  height: 154px;
+  left: 517px;
+  top: 1782px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.rectangulo63 p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #4e4c4b;
+  margin: 10px 10px !important;
+}
+
+.rectangulo64 {
+  position: absolute;
+  width: 375px;
+  height: 154px;
+  left: 946px;
+  top: 1782px;
+  background: #ffffff;
+  border: 5px solid #d2cfc7;
+  box-sizing: border-box;
+}
+
+.rectangulo64 p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #4e4c4b;
+  margin: 10px 10px !important;
+}
+
+.linea3 {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  top: 2047px;
   border: 1px solid #000000 !important;
 }
 
@@ -237,12 +406,7 @@ footer p {
   margin-left: 50px;
 }
 
-strong {
-  width: 343px;
-  height: 97px;
-  background: #e0b593;
-  padding: 20px 0;
-}
+
 
 .quienesSomos {
   padding: 50px !important;
@@ -264,14 +428,7 @@ strong {
   text-align: center;
 }
 
-.seccionPropuesta {
-  position: relative;
-  margin: 25px 20px !important;
-}
 
-.seccionPropuesta img {
-  margin: 0 5px !important;
-}
 
 .linea35 {
   position: absolute;
@@ -284,16 +441,6 @@ strong {
   transform: rotate(180deg);
 }
 
-.linea40 {
-  position: absolute;
-  width: 825px;
-  height: 0px;
-  right: 0;
-  top: 25px;
-  border: 5px solid #e0b593;
-  transform: rotate(180deg);
-  z-index: -1 !important;
-}
 
 .propuestaDeValor {
   position: relative;
