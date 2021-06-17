@@ -1,25 +1,35 @@
-* {
+/* * {
   box-sizing: border-box !important;
   margin: 0px 0px !important;
-}
+} */
 
 body {
   background-color: #ffffff;
   overflow-x: hidden !important;
 }
 
-main {
+.portada {
   position: relative;
 }
 
-.portada {
-  position: relative;
+.portada h2 {
+  position: absolute;
+  width: 236px;
+  height: 167px;
+  left: 149px;
+  top: 505px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
 }
 
 .menu {
   display: flex;
   justify-content: space-evenly !important;
-  margin-left: 550px !important;
+  margin-left: 430px !important;
 }
 
 .menu ul li {
@@ -43,7 +53,7 @@ main {
 .lupa {
   font-size: 20px !important;
   position: absolute;
-  right: 75px;
+  right: 105px;
   top: 25px;
 }
 
@@ -51,30 +61,16 @@ h1 {
   position: absolute;
   width: 936px;
   height: 212px;
-  left: 176px;
+  left: 153px;
   top: 262px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 6.25vw;
+  font-size: 5.5vw;
   line-height: 100px;
   letter-spacing: 0.02em;
   color: #4e4c4b;
   z-index: 5;
-}
-
-h2 {
-  position: absolute;
-  width: 236px;
-  height: 167px;
-  left: 175px;
-  top: 505px;
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 1.6vw;
-  line-height: 26px;
-  color: #4e4c4b;
 }
 
 .rectangulo3 {
@@ -82,9 +78,9 @@ h2 {
   justify-content: center;
   align-items: center !important;
   position: absolute;
-  width: 301px;
+  width: 270px;
   height: 57px;
-  left: 88px;
+  left: 85px;
   top: 661px;
   background: #527c73;
 }
@@ -93,18 +89,19 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: auto 0;
   color: #ffffff;
 }
 
 .rectangulo4 {
   position: absolute;
-  width: 748px;
+  width: 720px;
   height: 803px;
-  left: 602px;
+  left: 545px;
   top: 0px;
   background: #e0b593;
   z-index: -5;
@@ -115,9 +112,9 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  width: 854px;
+  width: 815px;
   height: 66px;
-  left: 411px;
+  left: 375px;
   top: 924px;
   border: 5px solid #e0b593;
   box-sizing: border-box;
@@ -125,6 +122,7 @@ h2 {
 
 .rectangulo14 p {
   display: inline-block !important;
+  margin: auto 0;
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -136,19 +134,20 @@ h2 {
 
 .captura3 {
   position: absolute;
-  width: 855px;
+  width: 845px;
   height: 782px;
-  left: 410px;
+  left: 375px;
   top: 121px;
   background-image: url("../img/captura-3.png");
+  background-repeat: no-repeat !important;
 }
 
 .linea13 {
   position: absolute;
-  width: 280px;
+  width: 255px;
   height: 0px;
-  left: 131px;
-  top: 250px;
+  left: 120px;
+  top: 255px;
   border: 3px solid #e0b593;
   transform: rotate(180deg);
 }
@@ -157,7 +156,7 @@ h2 {
   position: absolute;
   width: 416px;
   height: 0px;
-  left: -75px;
+  left: -85px;
   top: 460px;
   border: 3px solid #e0b593;
   transform: rotate(90deg);
@@ -195,7 +194,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 52px;
+  font-size: 51px;
   line-height: 61px;
   color: #4e4c4b;
 }
@@ -206,11 +205,11 @@ h2 {
 
 .linea40 {
   position: absolute;
-  width: 850px;
+  width: 840px;
   height: 0px;
   left: 550px;
   top: 1154px;
-  border: 5px solid #e0b593;
+  border: 3px solid #e0b593;
   transform: rotate(180deg);
 }
 
@@ -218,7 +217,7 @@ strong {
   width: 343px;
   height: 97px;
   background: #e0b593;
-  padding: 20px 0;
+  padding: 17px 0;
 }
 
 .foto1 {
@@ -236,9 +235,23 @@ strong {
   top: 1287px;
 }
 
+.somosZuibien {
+  position: absolute;
+  width: 170px;
+  left: 512px;
+  top: 1255px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #4e4c4b;
+}
+
 .rectangulo41 {
   position: absolute;
-  width: 748px;
+  width: 677px;
   height: 330px;
   left: 517px;
   top: 1287px;
@@ -250,29 +263,101 @@ strong {
 .rectangulo41 p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 22px !important;
   line-height: 26px;
   text-align: center;
   color: #4e4c4b;
-  margin: 12px 0 !important;
+  margin: 15px 30px !important;
 }
 
 .linea25 {
   position: absolute;
-  width: 1170px;
+  width: 1100px;
   height: 0px;
-  left: 150px;
-  top: 1660px;
-  border: 5px solid #e0b593;
+  left: 173px;
+  top: 1645px;
+  border: 3px solid #e0b593;
   transform: rotate(180deg);
+}
+
+.linea33 {
+  position: absolute;
+  width: 35px;
+  height: 0px;
+  left: 155px;
+  top: 1631px;
+  border: 3px solid #e0b593;
+  transform: rotate(-90deg);
+}
+
+.linea34 {
+  position: absolute;
+  width: 85px;
+  height: 0px;
+  left: 1228px;
+  top: 1600px;
+  border: 3px solid #e0b593;
+  transform: rotate(-90deg);
+}
+
+.linea35 {
+  position: absolute;
+  width: 75px;
+  height: 0px;
+  left: 1195px;
+  top: 1560px;
+  border: 3px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+.eficienciaTexto {
+  position: absolute;
+  width: 357px;
+  height: 39px;
+  left: 345px;
+  top: 1756px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
+}
+
+.diseñoTexto {
+  position: absolute;
+  width: 357px;
+  height: 39px;
+  left: 778px;
+  top: 1756px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
+}
+
+.tecnologiaTexto {
+  position: absolute;
+  width: 357px;
+  height: 39px;
+  left: 1118px;
+  top: 1756px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4e4c4b;
 }
 
 .rectangulo62 {
   position: absolute;
-  width: 375px;
+  width: 390px;
   height: 154px;
-  left: 90px;
+  left: 95.5px;
   top: 1782px;
   background: #ffffff;
   border: 5px solid #d2cfc7;
@@ -282,19 +367,19 @@ strong {
 .rectangulo62 p {
   font-family: "Roboto", sans-serif;
   font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 26px;
   text-align: right;
   color: #4e4c4b;
-  margin: 10px 10px !important;
+  margin: 10px 5px !important;
 }
 
 .rectangulo63 {
   position: absolute;
-  width: 375px;
+  width: 390px;
   height: 154px;
-  left: 517px;
+  left: 492px;
   top: 1782px;
   background: #ffffff;
   border: 5px solid #d2cfc7;
@@ -304,19 +389,19 @@ strong {
 .rectangulo63 p {
   font-family: "Roboto", sans-serif;
   font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 26px;
   text-align: right;
   color: #4e4c4b;
-  margin: 10px 10px !important;
+  margin: 10px 5px !important;
 }
 
 .rectangulo64 {
   position: absolute;
-  width: 375px;
+  width: 390px;
   height: 154px;
-  left: 946px;
+  left: 890px;
   top: 1782px;
   background: #ffffff;
   border: 5px solid #d2cfc7;
@@ -326,12 +411,12 @@ strong {
 .rectangulo64 p {
   font-family: "Roboto", sans-serif;
   font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 26px;
   text-align: right;
   color: #4e4c4b;
-  margin: 10px 10px !important;
+  margin: 10px 5px !important;
 }
 
 .linea3 {
@@ -339,8 +424,38 @@ strong {
   width: 100%;
   height: 0px;
   left: 0px;
-  top: 2047px;
+  top: 2100px;
   border: 1px solid #000000 !important;
+}
+
+.linea53 {
+  position: absolute;
+  width: 49px;
+  height: 0px;
+  left: 133px;
+  top: 1956px;
+  border: 3px solid #e0b593;
+  transform: rotate(-90deg);
+}
+
+.linea54 {
+  position: absolute;
+  width: 1090px;
+  height: 0px;
+  left: 154px;
+  top: 1980px;
+  border: 3px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+.linea55 {
+  position: absolute;
+  width: 49px;
+  height: 0px;
+  left: 1217px;
+  top: 1956px;
+  border: 3px solid #e0b593;
+  transform: rotate(-90deg);
 }
 
 /* footer p {
