@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+
+.menu {
+  color: #4e4c4b;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  width: 100%;
+  z-index: 5;
+}
+
+.menu ul i {
+  font-size: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 0 5px !important;
+}
+
+.buscar input {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid #4e4c4b;
+  width: 50%;
+}
+
+/*INICIO*/
+
+.inicio {
+  padding: 18.3vw;
+  background-image: url("img/captura-3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 90%;
+  background-position-x: left;
+}
+
+.rectanguloPrincipal {
+  position: absolute;
+  width: 56vw;
+  height: 110vh;
+  left: 36.7vw;
+  top: 0px;
+  background: #e0b593;
+  z-index: -1;
+}
+
+.textoInicial {
+  background-image: url("img/captura-333.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain contain;
+  background-position-x: 80%;
+  margin: 0 150px !important;
+  padding: 100px 0;
+}
+
+.textoInicial h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.25vw;
+  line-height: 15.7vh;
+  color: #4e4c4b;
+  margin: 50px 0 !important;
+}
+
+/*PIE FOTO*/
+
+.pieFoto {
+  display: flex;
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
+  margin: 25px 0 !important;
+  margin-left: 29% !important;
+  border: 5px solid #e0b593;
+  padding: 5px;
+  width: 55%;
+}
+
+.pieFoto h6 {
+  margin: 10px 25px !important;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+/*CUADROS CUALIDADES*/
+
+.cualidades div {
+  margin: 35px 0 !important;
+}
+
+.cualidades h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+/*SOMOS ZUIBIEN*/
+
+.somosZuibien div {
+  height: 100%;
+}
+
+.somosZuibien p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  margin: 5px 0 !important;
+  padding: 16px 0;
+}
+
+/*BOTONES*/
+
+.btn-enviar {
+  width: 190px;
+  height: 44px;
+  background: #527c73;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.btn-contratar {
+  width: 200px;
+  height: 44px;
+  background: #527c73;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.btn-quiero {
+  width: 225px;
+  height: 50px;
+  background: #527c73;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/*LETRAS*/
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.6vw;
+  line-height: 60px;
+  color: #4e4c4b;
+  margin: 50px 0 !important;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  width: 200px;
+  color: #4e4c4b;
+  margin: 15px 0 !important;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  width: 200px;
+  color: #4e4c4b;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  border: 5px solid #d2cfc7;
+  color: #4e4c4b;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: right;
+  color: #4e4c4b;
+  width: 100%;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4c4b;
+}
+
+.borde {
+  width: 100%;
+  border: 3px solid #e0b593;
+  transform: rotate(180deg);
+}
+
+strong {
+  background: #e0b593;
+  padding: 17px 0;
+}
+
+/*LINEAS*/
+
+hr {
+  margin: 80px 0 !important;
+  width: 100%;
+  border: 1px solid #000000;
+}
+
+/*NAVBAR*/
+
+.testimonios {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.testimonios div {
+  margin: 25px 50px !important;
+  width: 100%;
+}
+
+.testimonios h4 {
+  padding: 25px 25px;
+}
+
+.margin {
+  margin: 50px !important;
+}
+
+/*FOOTER*/
+
+footer {
+  font-family: "Roboto", sans-serif;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #d2cfc7;
+  padding: 40px 10px;
+}
+
+footer h3 {
+  font-family: "Roboto", sans-serif;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  margin: 15px 0 !important;
+  line-height: 21px !important;
+}
+
+footer div {
+  margin: 5.5px 5.5px !important;
+}
+
+.logo {
+  margin: auto 0 !important;
+}
+
+.redes {
+  margin: auto 0 !important;
+}
+
+.redes i {
+  margin: 0 5px !important;
+}
+
+.nuestrosServicios i {
+  margin: auto 15px !important;
+}
+
+.separar h5,
+h6 {
+  margin: 15px 0 !important;
+}
+
+.contacto {
+  margin-bottom: 35px !important;
+}
+
+.contacto div {
+  margin: 35px 0 !important;
+}
+
+.contacto input {
+  margin: 0 15px !important;
+  width: 25%;
+  border: none;
+  border-bottom: 2px solid #4e4c4b;
+}
